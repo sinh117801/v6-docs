@@ -139,7 +139,7 @@ The `ready` method gets called at different stages based on the application's en
 
 ```ts
 export default class AppProvider {
-  async start() {
+  async ready() {
     if (this.app.getEnvironment() === 'web') {
     }
 
